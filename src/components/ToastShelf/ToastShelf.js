@@ -7,7 +7,7 @@ function ToastShelf() {
   return (
     <ol className={styles.wrapper}>
       <li className={styles.toastWrapper}>
-        <Toast variant="notice">Example notice toast</Toast>
+        <Toast variant="notice" message="Example notice toast" />
       </li>
       <li className={styles.toastWrapper}>
         <Toast variant="error">Example error toast</Toast>
